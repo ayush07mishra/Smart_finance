@@ -1,0 +1,24 @@
+{
+  "name": "smart_finance",
+  "version": "1.0.0",
+  "description": "finance-dashboard/ │── server.js │── config/ │   └── db.js │── models/ │   ├── User.js │   └── Transaction.js │── middleware/ │   ├── auth.js │   └── role.js │── routes/ │   ├── authRoutes.js │   ├── transactionRoutes.js │   └── dashboardRoutes.js │── controllers/ │   ├── authController.js │   ├── transactionController.js │   └── dashboardController.js │── utils/ │   └── categorize.js │── .env",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
