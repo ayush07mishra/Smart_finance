@@ -10,7 +10,7 @@ module.exports = async () => {
 // module.exports = async () => {
 //   try {
 //     await mongoose.connect(
-//       "mongodb+srv://mishra108ayush_db_user:EHwB69zAzhYom8Vm@cluster0.wxaullz.mongodb.net/?appName=Cluster0"
+//       "mongodb+srv://xyz:xyz@cluster0.wxaullz.mongodb.net/?appName=Cluster0"
 //     );
 //     console.log("DB Connected");
 //   } catch (err) {
