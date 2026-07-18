@@ -1,7 +1,6 @@
 // require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
-
 require("dotenv").config({ path: "./.env" }); // force exact file
 
 const app = express();
